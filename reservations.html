@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+<div id="wrapper">
+<h1>pacific trails</h1>
+    <nav><ul><li><a href="index.html">home</a></li><li><a href="yurts.html">yurts</a></li><li><a href="activities.html">activities</a></li><li><a href="reservations.html">reservations</a></li></ul></nav>
+<main>
+<h2>text</h2>
+<h3>Contact Us</h3>
+<p>Required Fields are marked with an asterisk*</p>
+<form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+    <label for="myFName">*First Name:</label><input id="myFName" name="myFName" type="text" required>
+    <label for="myLName">*Last Name:</label><input id="myLName" name="myLName" type="text" required>
+    <label for="myEmail">*Email:</label><input id="myEmail" name="myEmail" type="email" size="35" required>
+    <label for="myPhone">*Phone Number:</label><input id="myPhone" name="myPhone" type="tel" maxlength="12" required>
+    <label for="myArrivalDate">Arrival Date:</label><input id="myArrivalDate" name="myArrivalDate" type="date">
+    <label for="myNights">Nights:</label><input id="myNights" name="myNights" type="number" min="1" max="10">
+    <label for="myComments">*Comments:</label><textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+    <input type="submit" value="Submit">
+</form>
+<div id="contact"><span class="resort">Pacific Trails Resort</span><br>
+    <a id="mobile" href="tel:888-555-5555">888-555-5555</a><span id="desktop">888-555-5555</span><br>
+    text<br>
+    <br>text<br>
+</div>
+<footer>
+    <i><br>text<br><a href="">link</a></i>
+</footer>
+</main>
+</div>
+</body>
+</html>
